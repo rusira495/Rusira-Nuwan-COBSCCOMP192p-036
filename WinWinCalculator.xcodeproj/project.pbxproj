@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E23926725CFA66700A9C9EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E23926625CFA66700A9C9EC /* AppDelegate.swift */; };
+		2E23926925CFA66700A9C9EC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E23926825CFA66700A9C9EC /* SceneDelegate.swift */; };
+		2E23926B25CFA66700A9C9EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E23926A25CFA66700A9C9EC /* ViewController.swift */; };
+		2E23926E25CFA66700A9C9EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E23926C25CFA66700A9C9EC /* Main.storyboard */; };
+		2E23927025CFA66800A9C9EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E23926F25CFA66800A9C9EC /* Assets.xcassets */; };
+		2E23927325CFA66800A9C9EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E23927125CFA66800A9C9EC /* LaunchScreen.storyboard */; };
+		2E23927E25CFA66800A9C9EC /* WinWinCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E23927D25CFA66800A9C9EC /* WinWinCalculatorTests.swift */; };
+		2E23928925CFA66800A9C9EC /* WinWinCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E23928825CFA66800A9C9EC /* WinWinCalculatorUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2E23927A25CFA66800A9C9EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E23925B25CFA66700A9C9EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E23926225CFA66700A9C9EC;
+			remoteInfo = WinWinCalculator;
+		};
+		2E23928525CFA66800A9C9EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E23925B25CFA66700A9C9EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E23926225CFA66700A9C9EC;
+			remoteInfo = WinWinCalculator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2E23926325CFA66700A9C9EC /* WinWinCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WinWinCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E23926625CFA66700A9C9EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2E23926825CFA66700A9C9EC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2E23926A25CFA66700A9C9EC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2E23926D25CFA66700A9C9EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2E23926F25CFA66800A9C9EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2E23927225CFA66800A9C9EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2E23927425CFA66800A9C9EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E23927925CFA66800A9C9EC /* WinWinCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WinWinCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E23927D25CFA66800A9C9EC /* WinWinCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinWinCalculatorTests.swift; sourceTree = "<group>"; };
+		2E23927F25CFA66800A9C9EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E23928425CFA66800A9C9EC /* WinWinCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WinWinCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E23928825CFA66800A9C9EC /* WinWinCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinWinCalculatorUITests.swift; sourceTree = "<group>"; };
+		2E23928A25CFA66800A9C9EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E23926025CFA66700A9C9EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E23927625CFA66800A9C9EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E23928125CFA66800A9C9EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E23925A25CFA66700A9C9EC = {
+			isa = PBXGroup;
+			children = (
+				2E23926525CFA66700A9C9EC /* WinWinCalculator */,
+				2E23927C25CFA66800A9C9EC /* WinWinCalculatorTests */,
+				2E23928725CFA66800A9C9EC /* WinWinCalculatorUITests */,
+				2E23926425CFA66700A9C9EC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2E23926425CFA66700A9C9EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E23926325CFA66700A9C9EC /* WinWinCalculator.app */,
+				2E23927925CFA66800A9C9EC /* WinWinCalculatorTests.xctest */,
+				2E23928425CFA66800A9C9EC /* WinWinCalculatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2E23926525CFA66700A9C9EC /* WinWinCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				2E23926625CFA66700A9C9EC /* AppDelegate.swift */,
+				2E23926825CFA66700A9C9EC /* SceneDelegate.swift */,
+				2E23926A25CFA66700A9C9EC /* ViewController.swift */,
+				2E23926C25CFA66700A9C9EC /* Main.storyboard */,
+				2E23926F25CFA66800A9C9EC /* Assets.xcassets */,
+				2E23927125CFA66800A9C9EC /* LaunchScreen.storyboard */,
+				2E23927425CFA66800A9C9EC /* Info.plist */,
+			);
+			path = WinWinCalculator;
+			sourceTree = "<group>";
+		};
+		2E23927C25CFA66800A9C9EC /* WinWinCalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				2E23927D25CFA66800A9C9EC /* WinWinCalculatorTests.swift */,
+				2E23927F25CFA66800A9C9EC /* Info.plist */,
+			);
+			path = WinWinCalculatorTests;
+			sourceTree = "<group>";
+		};
+		2E23928725CFA66800A9C9EC /* WinWinCalculatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2E23928825CFA66800A9C9EC /* WinWinCalculatorUITests.swift */,
+				2E23928A25CFA66800A9C9EC /* Info.plist */,
+			);
+			path = WinWinCalculatorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2E23926225CFA66700A9C9EC /* WinWinCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E23928D25CFA66800A9C9EC /* Build configuration list for PBXNativeTarget "WinWinCalculator" */;
+			buildPhases = (
+				2E23925F25CFA66700A9C9EC /* Sources */,
+				2E23926025CFA66700A9C9EC /* Frameworks */,
+				2E23926125CFA66700A9C9EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WinWinCalculator;
+			productName = WinWinCalculator;
+			productReference = 2E23926325CFA66700A9C9EC /* WinWinCalculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2E23927825CFA66800A9C9EC /* WinWinCalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E23929025CFA66800A9C9EC /* Build configuration list for PBXNativeTarget "WinWinCalculatorTests" */;
+			buildPhases = (
+				2E23927525CFA66800A9C9EC /* Sources */,
+				2E23927625CFA66800A9C9EC /* Frameworks */,
+				2E23927725CFA66800A9C9EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E23927B25CFA66800A9C9EC /* PBXTargetDependency */,
+			);
+			name = WinWinCalculatorTests;
+			productName = WinWinCalculatorTests;
+			productReference = 2E23927925CFA66800A9C9EC /* WinWinCalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2E23928325CFA66800A9C9EC /* WinWinCalculatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E23929325CFA66800A9C9EC /* Build configuration list for PBXNativeTarget "WinWinCalculatorUITests" */;
+			buildPhases = (
+				2E23928025CFA66800A9C9EC /* Sources */,
+				2E23928125CFA66800A9C9EC /* Frameworks */,
+				2E23928225CFA66800A9C9EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E23928625CFA66800A9C9EC /* PBXTargetDependency */,
+			);
+			name = WinWinCalculatorUITests;
+			productName = WinWinCalculatorUITests;
+			productReference = 2E23928425CFA66800A9C9EC /* WinWinCalculatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2E23925B25CFA66700A9C9EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					2E23926225CFA66700A9C9EC = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					2E23927825CFA66800A9C9EC = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 2E23926225CFA66700A9C9EC;
+					};
+					2E23928325CFA66800A9C9EC = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 2E23926225CFA66700A9C9EC;
+					};
+				};
+			};
+			buildConfigurationList = 2E23925E25CFA66700A9C9EC /* Build configuration list for PBXProject "WinWinCalculator" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2E23925A25CFA66700A9C9EC;
+			productRefGroup = 2E23926425CFA66700A9C9EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2E23926225CFA66700A9C9EC /* WinWinCalculator */,
+				2E23927825CFA66800A9C9EC /* WinWinCalculatorTests */,
+				2E23928325CFA66800A9C9EC /* WinWinCalculatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2E23926125CFA66700A9C9EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E23927325CFA66800A9C9EC /* LaunchScreen.storyboard in Resources */,
+				2E23927025CFA66800A9C9EC /* Assets.xcassets in Resources */,
+				2E23926E25CFA66700A9C9EC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E23927725CFA66800A9C9EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E23928225CFA66800A9C9EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E23925F25CFA66700A9C9EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E23926B25CFA66700A9C9EC /* ViewController.swift in Sources */,
+				2E23926725CFA66700A9C9EC /* AppDelegate.swift in Sources */,
+				2E23926925CFA66700A9C9EC /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E23927525CFA66800A9C9EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E23927E25CFA66800A9C9EC /* WinWinCalculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E23928025CFA66800A9C9EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E23928925CFA66800A9C9EC /* WinWinCalculatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2E23927B25CFA66800A9C9EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2E23926225CFA66700A9C9EC /* WinWinCalculator */;
+			targetProxy = 2E23927A25CFA66800A9C9EC /* PBXContainerItemProxy */;
+		};
+		2E23928625CFA66800A9C9EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2E23926225CFA66700A9C9EC /* WinWinCalculator */;
+			targetProxy = 2E23928525CFA66800A9C9EC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2E23926C25CFA66700A9C9EC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E23926D25CFA66700A9C9EC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2E23927125CFA66800A9C9EC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E23927225CFA66800A9C9EC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2E23928B25CFA66800A9C9EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2E23928C25CFA66800A9C9EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2E23928E25CFA66800A9C9EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WinWinCalculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nibm.WinWinCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2E23928F25CFA66800A9C9EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WinWinCalculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nibm.WinWinCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2E23929125CFA66800A9C9EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WinWinCalculatorTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nibm.WinWinCalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WinWinCalculator.app/WinWinCalculator";
+			};
+			name = Debug;
+		};
+		2E23929225CFA66800A9C9EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WinWinCalculatorTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nibm.WinWinCalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WinWinCalculator.app/WinWinCalculator";
+			};
+			name = Release;
+		};
+		2E23929425CFA66800A9C9EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WinWinCalculatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nibm.WinWinCalculatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WinWinCalculator;
+			};
+			name = Debug;
+		};
+		2E23929525CFA66800A9C9EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WinWinCalculatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nibm.WinWinCalculatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WinWinCalculator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2E23925E25CFA66700A9C9EC /* Build configuration list for PBXProject "WinWinCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E23928B25CFA66800A9C9EC /* Debug */,
+				2E23928C25CFA66800A9C9EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E23928D25CFA66800A9C9EC /* Build configuration list for PBXNativeTarget "WinWinCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E23928E25CFA66800A9C9EC /* Debug */,
+				2E23928F25CFA66800A9C9EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E23929025CFA66800A9C9EC /* Build configuration list for PBXNativeTarget "WinWinCalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E23929125CFA66800A9C9EC /* Debug */,
+				2E23929225CFA66800A9C9EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E23929325CFA66800A9C9EC /* Build configuration list for PBXNativeTarget "WinWinCalculatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E23929425CFA66800A9C9EC /* Debug */,
+				2E23929525CFA66800A9C9EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2E23925B25CFA66700A9C9EC /* Project object */;
+}
